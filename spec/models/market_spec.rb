@@ -7,10 +7,14 @@ RSpec.describe Market, type: :model do
     it { should have_many(:vendors).through(:market_vendors) }
   end
 
-  # describe '#vendor_count' do
-  #   it 'returns the number of vendors associated with the market' do
+  # describe 'instance methods' do
+  #   describe '#vendor_count' do
+  #     market = Market.create(:market)
 
-  #     expect(market.vendor_count).to eq(3)
+  #     create(:market_vendor, market => market)
+  #     create(:market_vendor, market: market)
+
+  #     expect(market.vendor_count).to eq(2)
   #   end
   # end
 end
