@@ -47,4 +47,21 @@ RSpec.describe "Api::V0::Markets", type: :request do
     end
   end
 
+  describe "can return a single market by id" do 
+    it "happy path" do
+      create_list(:market, 4)
+
+      get "/api/v0/markets/#{Market.first.id}"
+
+      expect(response).to be_successful
+    end
+
+    # it "sad path" do
+    #   get "/api/v0/markets/1000000"
+
+    #   data = JSON.parse(response.body, symbolize_names: true)
+      
+    #   expect(response.status).to eq(404)
+    # end
+  end
 end
