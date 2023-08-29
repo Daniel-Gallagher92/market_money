@@ -81,7 +81,7 @@ RSpec.describe "Api::V0::Markets", type: :request do
       
       expect(response.status).to eq(404)
 
-      nope = JSON.parse(response.body, symbolize_names: true)
+      no_data = JSON.parse(response.body, symbolize_names: true)
       expect(no_data).to have_key(:errors)
       expect(no_data[:errors]).to be_a(Array)
 
