@@ -82,6 +82,54 @@ RSpec.describe 'Vendor API', type: :request do
     expect(nope[:errors]).to be_an(Array)
     expect(nope[:errors].first).to have_key(:details)
     expect(nope[:errors].first[:details]).to eq("Validation failed: Contact name can't be blank, Contact phone can't be blank")
+  end
 
+  describe "PATCH /api/v0/vendors/:id" do
+    it "can update a vendor w/ any number of attributes" do 
+      vendor = create(:vendor)
+
+      expect(vendor.name).to_not eq("ICE C.R.E.A.M")
+      expect(vendor.description).to_not eq("Dolla Dolla Bill Y'all")
+
+      id = vendor.id
+      vendor_params = ({name: "ICE C.R.E.A.M", description: "Dolla Dolla Bill Y'all", credit_accepted: false})
+      headers = { "CONTENT_TYPE" => "application/json"}
+
+      patch "/api/v0/vendors/#{id}", headers: headers, params: JSON.generate(vendor_params)
+
+      expect(response).to have_http_status(200)
+
+      expect(Vendor.find(id).name).to eq("ICE C.R.E.A.M")
+      expect(Vendor.find(id).description).to eq("Dolla Dolla Bill Y'all")
+      expect(Vendor.find(id).credit_accepted).to eq(false)
+    end
+
+    it 'returns 404 when trying to update a vendor with invalid id' do 
+      id = 9021090210
+      vendor_params = ({name: "ICE C.R.E.A.M", description: "Dolla Dolla Bill Y'all", credit_accepted: false})
+      headers = { "CONTENT_TYPE" => "application/json"}
+
+      patch "/api/v0/vendors/#{id}", headers: headers, params: JSON.generate(vendor_params)
+
+      expect(response).to have_http_status(404)
+      
+      nope = JSON.parse(response.body, symbolize_names: true)[:errors].first
+
+      expect(nope[:details]).to eq("Couldn't find Vendor with 'id'=9021090210")
+    end
+
+    it 'cannot update vendor with invalid attributes' do 
+      vendor = create(:vendor)
+      vendor_params = ({name: "", credit_accepted: false})
+      headers = { "CONTENT_TYPE" => "application/json"}
+
+      patch "/api/v0/vendors/#{vendor.id}", headers: headers, params: JSON.generate(vendor_params)
+
+      expect(response).to have_http_status(400)
+      expect(Vendor.find(vendor.id).name).to eq(vendor.name)
+
+      nope = JSON.parse(response.body, symbolize_names: true)[:errors].first
+      expect(nope[:details]).to eq("Validation failed: Name can't be blank")
+    end
   end
 end
