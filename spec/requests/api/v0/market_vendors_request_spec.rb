@@ -143,18 +143,21 @@ RSpec.describe "Vendor API", type: :request do
       expect(nope).to eq("param is missing or the value is empty: market_vendor")
     end
 
-    # it "returns 422 when trying to create a market_vendor that already exists" do 
-    #   market = create(:market)
-    #   vendor = create(:vendor)
-    #   market_vendor = MarketVendor.create!(market_id: market.id, vendor_id: vendor.id)
+    it "returns 422 when trying to create a market_vendor that already exists" do 
+      market = create(:market)
+      vendor = create(:vendor)
+      market_vendor = MarketVendor.create!(market_id: market.id, vendor_id: vendor.id)
 
-    #   params = { market_id: market.id, vendor_id: vendor.id }
-    #   headers = { "CONTENT_TYPE" => "application/json" }
-    #   post "/api/v0/market_vendors", headers: headers, params: JSON.generate(market_vendor: params)
+      params = { market_id: market.id, vendor_id: vendor.id }
+      headers = { "CONTENT_TYPE" => "application/json" }
+      post "/api/v0/market_vendors", headers: headers, params: JSON.generate(market_vendor: params)
 
-    #   expect(response).to have_http_status(422)
-    
-    # end
+      expect(response).to have_http_status(422)
+      
+      nope = JSON.parse(response.body, symbolize_names: true)[:errors].first[:details]
+      
+      expect(nope).to eq("Validation failed: Market vendor asociation between market with market_id=#{market.id} and vendor_id=#{vendor.id} already exists")
+    end
 
   end
 end
