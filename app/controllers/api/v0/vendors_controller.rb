@@ -34,6 +34,14 @@ class Api::V0::VendorsController < ApplicationController
     end
   end
 
+  def destroy 
+    begin
+      Vendor.find(params[:id]).destroy
+      render status: :no_content
+    rescue ActiveRecord::RecordNotFound => e
+      render json: ErrorSerializer.new(e).serialized_json, status: :not_found
+    end
+  end
 
   private
 
