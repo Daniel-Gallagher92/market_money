@@ -158,6 +158,41 @@ RSpec.describe "Vendor API", type: :request do
       
       expect(nope).to eq("Validation failed: Market vendor asociation between market with market_id=#{market.id} and vendor_id=#{vendor.id} already exists")
     end
+  end
 
+  describe "DELETE /api/v0/market_vendors" do 
+    before :each do
+      @market = create(:market)
+      @vendor = create(:vendor)
+      @market_vendor = MarketVendor.create!(market_id: @market.id, vendor_id: @vendor.id)
+    end
+
+    it '204, can delete a market_vendor with valid id' do
+      params = { market_id: @market.id, vendor_id: @vendor.id }
+      headers = { "CONTENT_TYPE" => "application/json" }
+      
+      expect(MarketVendor.exists?(params)).to eq(true)
+
+      delete "/api/v0/market_vendors", headers: headers, params: JSON.generate(market_vendor: params)
+
+      expect(MarketVendor.exists?(params)).to eq(false)
+      expect(response).to have_http_status(204)
+      expect(response.body).to eq("")
+    end
+
+    it 'returns 404 if invalid id passed in' do 
+      market_id = 12345676543
+      vendor_id = 19876789032 
+      params = { market_id: market_id, vendor_id: vendor_id }
+      headers = { "CONTENT_TYPE" => "application/json" }
+
+      delete "/api/v0/market_vendors", headers: headers, params: JSON.generate(market_vendor: params)
+
+      expect(response).to have_http_status(404)
+
+      nope = JSON.parse(response.body, symbolize_names: true)[:errors].first[:details]
+
+      expect(nope).to eq("Couldn't find MarketVendor with market_id=#{market_id} and vendor_id=#{vendor_id}")
+    end
   end
 end
