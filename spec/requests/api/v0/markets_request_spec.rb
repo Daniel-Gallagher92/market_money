@@ -90,4 +90,39 @@ RSpec.describe "Api::V0::Markets", type: :request do
       expect(no_data[:errors][0][:details]).to eq("Couldn't find Market with 'id'=1000000")
     end
   end
+
+  describe 'GET /api/v0/markets/search' do 
+    it 'can return market based on city, state and name' do 
+      create_list(:market, 4)
+      market_1 = create(:market, name: "Denver Central Market", city: "Denver", state: "Colorado")
+
+      get "/api/v0/markets/search?city=Denver&state=CO&name=Denver%20Central%20Market"
+
+      expect(response).to have_http_status(200)
+
+      data = JSON.parse(response.body, symbolize_names: true)
+      markets = data[:data]
+
+      expect(markets.count).to eq(1)
+      market = markets.first
+
+      expect(market).to have_key(:id)
+      expect(market[:id]).to be_a(String)
+      expect(market[:attributes]).to have_key(:name)
+      expect(market[:attributes][:name]).to be_a(String)
+      expect(market[:attributes][:name]).to eq("Denver Central Market")
+
+      expect(market[:attributes]).to have_key(:city)
+      expect(market[:attributes][:city]).to be_a(String)
+      expect(market[:attributes][:city]).to eq("Denver")
+
+      expect(market[:attributes]).to have_key(:state)
+      expect(market[:attributes][:state]).to be_a(String)
+      expect(market[:attributes][:state]).to eq("Colorado")
+
+      expect(market[:attributes]).to have_key(:vendor_count)
+      expect(market[:attributes][:vendor_count]).to be_a(Integer)
+      expect(market[:attributes][:vendor_count]).to eq(0)
+    end
+  end
 end

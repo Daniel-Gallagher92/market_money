@@ -11,9 +11,32 @@ class Market < ApplicationRecord
                         :lat,
                         :lon
 
-  # before_save { |market| market.vendor_count = market.vendors.count }
+    def self.search(search_params) 
+      queries = valid_search_queries(search_params)
+      return queries if queries.class == ErrorMarket
+      search_results = Market.all
+      queries.each do |query| 
+        search = query.to_s
+        search_results = search_results.where("#{search} ILIKE ?", "%#{search_params[query]}%")
+      end
+      search_results
+    end
 
-  # def vendor_count
-  #   vendors.count
-  # end
+    def self.valid_search_queries(search_params)
+      if !search_params[:state].present? && search_params[:city].present?
+        invalid_search_params
+      elsif empty_search?(search_params)
+        invalid_search_params
+      else
+        search_params.keys
+      end
+    end
+
+    def self.invalid_search_params
+      ErrorMarket.new("Please provide valid search parameters. Example: State; State and City; State, City and Name; State and Name, or Name.")
+    end
+
+    def self.empty_search?(search_params)
+      search_params.values.any? { |value| value.empty? }
+    end
 end
