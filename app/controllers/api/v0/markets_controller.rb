@@ -21,6 +21,15 @@ class Api::V0::MarketsController < ApplicationController
     end
   end
 
+  def nearest_atms 
+    begin
+      market = Market.find(params[:id])
+      atms = NearestAtmFacade.nearest_atm(market.lat, market.lon)
+      render json: NearestAtmSerializer.new(atms)
+    rescue StandardError => e
+      render json: ErrorSerializer.new(e).serialized_json, status: :unprocessable_entity
+    end
+  end
 
   private
 

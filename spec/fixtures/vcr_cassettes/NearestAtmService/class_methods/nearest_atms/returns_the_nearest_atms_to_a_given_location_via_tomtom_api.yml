@@ -1,0 +1,707 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=22.826280770158064&lon=32.45571805478315
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 31 Aug 2023 23:25:48 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 715f0bd0-af67-48fd-93df-f461f180b983
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '20'
+      X-Envoy-Upstream-Service-Time:
+      - '45'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":18,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":22.826280770158064,"lon":32.45571805478315},"geobiasCountry":"EG"},"results":[]}'
+  recorded_at: Thu, 31 Aug 2023 23:25:48 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=5.584396874809187&lon=-9.231993111524702
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 31 Aug 2023 23:26:06 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 7de4667c-7424-497a-bfce-996b9a8b865a
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '16'
+      X-Envoy-Upstream-Service-Time:
+      - '28'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":14,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":5.584396874809187,"lon":-9.231993111524702},"geobiasCountry":"LR"},"results":[]}'
+  recorded_at: Thu, 31 Aug 2023 23:26:06 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=-63.66684202348114&lon=148.03156009602606
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 31 Aug 2023 23:26:14 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - ba4c5c6f-750f-4fef-9a21-13d991ac041c
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '18'
+      X-Envoy-Upstream-Service-Time:
+      - '44'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":15,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":-63.66684202348114,"lon":148.03156009602606},"geobiasCountry":"AQ"},"results":[]}'
+  recorded_at: Thu, 31 Aug 2023 23:26:14 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=15.198670220842331&lon=-110.12626864634252
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 31 Aug 2023 23:26:47 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 578c3fef-f56b-4b58-b401-c652003a6ca8
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '23'
+      X-Envoy-Upstream-Service-Time:
+      - '34'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":19,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":15.198670220842331,"lon":-110.12626864634252},"geobiasCountry":"UM"},"results":[]}'
+  recorded_at: Thu, 31 Aug 2023 23:26:47 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=76.42616241729863&lon=93.39303997252176
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 31 Aug 2023 23:28:50 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - a27f0259-bcc4-4bbc-998e-a6d8c42136f2
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '19'
+      X-Envoy-Upstream-Service-Time:
+      - '29'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":17,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":76.42616241729863,"lon":93.39303997252176},"geobiasCountry":"RU"},"results":[]}'
+  recorded_at: Thu, 31 Aug 2023 23:28:50 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=76.42616241729863&lon=93.39303997252176
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 31 Aug 2023 23:29:13 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 8c330241-2be5-49ac-b6e3-15c6413d7fca
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '17'
+      X-Envoy-Upstream-Service-Time:
+      - '29'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":15,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":76.42616241729863,"lon":93.39303997252176},"geobiasCountry":"RU"},"results":[]}'
+  recorded_at: Thu, 31 Aug 2023 23:29:13 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=-8.341661473868513&lon=49.66150746849124
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 31 Aug 2023 23:29:40 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 0bb47e34-bd0c-41d9-b877-fddc6ad70c46
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '19'
+      X-Envoy-Upstream-Service-Time:
+      - '30'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":16,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":-8.341661473868513,"lon":49.66150746849124},"geobiasCountry":"SC"},"results":[]}'
+  recorded_at: Thu, 31 Aug 2023 23:29:40 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=84.29012162758582&lon=44.6652754621056
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 31 Aug 2023 23:37:49 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 56290bc7-deb4-42e2-a7c2-2edba9bb46c1
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '18'
+      X-Envoy-Upstream-Service-Time:
+      - '29'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":14,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":84.29012162758582,"lon":44.6652754621056},"geobiasCountry":"ZZ"},"results":[]}'
+  recorded_at: Thu, 31 Aug 2023 23:37:49 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=63.81868844479243&lon=23.3368508811121
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 31 Aug 2023 23:40:43 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 8018ccdd-9d95-4eef-8589-db9858ac919f
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '44'
+      X-Envoy-Upstream-Service-Time:
+      - '52'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJzdW1tYXJ5Ijp7InF1ZXJ5VHlwZSI6Ik5FQVJCWSIsInF1ZXJ5VGltZSI6NDAsIm51bVJlc3VsdHMiOjEwLCJvZmZzZXQiOjAsInRvdGFsUmVzdWx0cyI6MTAsImZ1enp5TGV2ZWwiOjEsImdlb0JpYXMiOnsibGF0Ijo2My44MTg2ODg0NDQ3OTI0MywibG9uIjoyMy4zMzY4NTA4ODExMTIxfSwiZ2VvYmlhc0NvdW50cnkiOiJGSSJ9LCJyZXN1bHRzIjpbeyJ0eXBlIjoiUE9JIiwiaWQiOiJhVlFNVFowM3RYZGpvazJPb1dlQll3Iiwic2NvcmUiOjkzLjk0MjAyNDIzMSwiZGlzdCI6NjA1Ny45NzMzNTUsImluZm8iOiJzZWFyY2g6dGE6MjQ2MDA3MDAwMDI3NDQ0LUZJIiwicG9pIjp7Im5hbWUiOiJPdHRvIiwiYnJhbmRzIjpbeyJuYW1lIjoiT3R0byJ9XSwiY2F0ZWdvcnlTZXQiOlt7ImlkIjo3Mzk3fV0sInVybCI6Ind3dy5vdHRvLmZpLyIsImNhdGVnb3JpZXMiOlsiY2FzaCBkaXNwZW5zZXIiXSwiY2xhc3NpZmljYXRpb25zIjpbeyJjb2RlIjoiQ0FTSF9ESVNQRU5TRVIiLCJuYW1lcyI6W3sibmFtZUxvY2FsZSI6ImVuLVVTIiwibmFtZSI6ImNhc2ggZGlzcGVuc2VyIn1dfV19LCJhZGRyZXNzIjp7InN0cmVldE51bWJlciI6IjM1Iiwic3RyZWV0TmFtZSI6IkvDpGx2acOkbnRpZSIsIm11bmljaXBhbGl0eSI6Iktva2tvbGEiLCJjb3VudHJ5U3ViZGl2aXNpb24iOiJLZXNraS1Qb2hqYW5tYWEiLCJwb3N0YWxDb2RlIjoiNjgzMDAiLCJjb3VudHJ5Q29kZSI6IkZJIiwiY291bnRyeSI6IlN1b21pIiwiY291bnRyeUNvZGVJU08zIjoiRklOIiwiZnJlZWZvcm1BZGRyZXNzIjoiS8OkbHZpw6RudGllIDM1LCA2ODMwMCBLw6RsdmnDpCIsImxvY2FsTmFtZSI6IkvDpGx2acOkIn0sInBvc2l0aW9uIjp7ImxhdCI6NjMuODYwODgzLCJsb24iOjIzLjQxNTAyMX0sInZpZXdwb3J0Ijp7InRvcExlZnRQb2ludCI6eyJsYXQiOjYzLjg2MTc4LCJsb24iOjIzLjQxMjk4fSwiYnRtUmlnaHRQb2ludCI6eyJsYXQiOjYzLjg1OTk4LCJsb24iOjIzLjQxNzA2fX0sImVudHJ5UG9pbnRzIjpbeyJ0eXBlIjoibWFpbiIsInBvc2l0aW9uIjp7ImxhdCI6NjMuODYwOTcsImxvbiI6MjMuNDE1MTF9fV19LHsidHlwZSI6IlBPSSIsImlkIjoiSzFNQTRfTkZLTmRHeG9sdEFISnFEQSIsInNjb3JlIjo5Mi42NzkyNzU1MTI3LCJkaXN0Ijo3MzIwLjcyNzQzLCJpbmZvIjoic2VhcmNoOnRhOjI0NjAwNzAwMDAyNzQ0NS1GSSIsInBvaSI6eyJuYW1lIjoiT3R0byIsImJyYW5kcyI6W3sibmFtZSI6Ik90dG8ifV0sImNhdGVnb3J5U2V0IjpbeyJpZCI6NzM5N31dLCJ1cmwiOiJ3d3cub3R0by5maS8iLCJjYXRlZ29yaWVzIjpbImNhc2ggZGlzcGVuc2VyIl0sImNsYXNzaWZpY2F0aW9ucyI6W3siY29kZSI6IkNBU0hfRElTUEVOU0VSIiwibmFtZXMiOlt7Im5hbWVMb2NhbGUiOiJlbi1VUyIsIm5hbWUiOiJjYXNoIGRpc3BlbnNlciJ9XX1dfSwiYWRkcmVzcyI6eyJzdHJlZXROdW1iZXIiOiIzNSIsInN0cmVldE5hbWUiOiJWb3VkaW5wb2xrdSIsIm11bmljaXBhbGl0eVN1YmRpdmlzaW9uIjoiS8OkbHZpw6QiLCJtdW5pY2lwYWxpdHkiOiJLb2trb2xhIiwiY291bnRyeVN1YmRpdmlzaW9uIjoiS2Vza2ktUG9oamFubWFhIiwicG9zdGFsQ29kZSI6IjY4MzAwIiwiY291bnRyeUNvZGUiOiJGSSIsImNvdW50cnkiOiJTdW9taSIsImNvdW50cnlDb2RlSVNPMyI6IkZJTiIsImZyZWVmb3JtQWRkcmVzcyI6IlZvdWRpbnBvbGt1IDM1LCA2ODMwMCBLw6RsdmnDpCIsImxvY2FsTmFtZSI6IkvDpGx2acOkIn0sInBvc2l0aW9uIjp7ImxhdCI6NjMuODYwMTcsImxvbiI6MjMuNDUyODF9LCJ2aWV3cG9ydCI6eyJ0b3BMZWZ0UG9pbnQiOnsibGF0Ijo2My44NjEwNywibG9uIjoyMy40NTA3N30sImJ0bVJpZ2h0UG9pbnQiOnsibGF0Ijo2My44NTkyNywibG9uIjoyMy40NTQ4NX19LCJlbnRyeVBvaW50cyI6W3sidHlwZSI6Im1haW4iLCJwb3NpdGlvbiI6eyJsYXQiOjYzLjg2MDI3LCJsb24iOjIzLjQ1MjM3fX1dfSx7InR5cGUiOiJQT0kiLCJpZCI6InJFMWpDQVRkdUJrLUdqM19YbkhmOEEiLCJzY29yZSI6OTIuNjY5NDc5MzcwMSwiZGlzdCI6NzMzMC41MjA0NzcsImluZm8iOiJzZWFyY2g6dGE6MjQ2MDA5MDAzNzAwMDM1LUZJIiwicG9pIjp7Im5hbWUiOiJPUCBLw4RMVknDhCIsImJyYW5kcyI6W3sibmFtZSI6Ik90dG8ifV0sImNhdGVnb3J5U2V0IjpbeyJpZCI6NzM5N31dLCJjYXRlZ29yaWVzIjpbImNhc2ggZGlzcGVuc2VyIl0sImNsYXNzaWZpY2F0aW9ucyI6W3siY29kZSI6IkNBU0hfRElTUEVOU0VSIiwibmFtZXMiOlt7Im5hbWVMb2NhbGUiOiJlbi1VUyIsIm5hbWUiOiJjYXNoIGRpc3BlbnNlciJ9XX1dfSwiYWRkcmVzcyI6eyJzdHJlZXROdW1iZXIiOiIzNSIsInN0cmVldE5hbWUiOiJLw6RsdmnDpG50aWUiLCJtdW5pY2lwYWxpdHlTdWJkaXZpc2lvbiI6IkvDpGx2acOkIiwibXVuaWNpcGFsaXR5IjoiS29ra29sYSIsImNvdW50cnlTdWJkaXZpc2lvbiI6Iktlc2tpLVBvaGphbm1hYSIsInBvc3RhbENvZGUiOiI2ODMwMCIsImNvdW50cnlDb2RlIjoiRkkiLCJjb3VudHJ5IjoiU3VvbWkiLCJjb3VudHJ5Q29kZUlTTzMiOiJGSU4iLCJmcmVlZm9ybUFkZHJlc3MiOiJLw6RsdmnDpG50aWUgMzUsIDY4MzAwIEvDpGx2acOkIiwibG9jYWxOYW1lIjoiS8OkbHZpw6QifSwicG9zaXRpb24iOnsibGF0Ijo2My44NjAyMjQsImxvbiI6MjMuNDUyOTY4fSwidmlld3BvcnQiOnsidG9wTGVmdFBvaW50Ijp7ImxhdCI6NjMuODYxMTIsImxvbiI6MjMuNDUwOTN9LCJidG1SaWdodFBvaW50Ijp7ImxhdCI6NjMuODU5MzIsImxvbiI6MjMuNDU1MDF9fSwiZW50cnlQb2ludHMiOlt7InR5cGUiOiJtYWluIiwicG9zaXRpb24iOnsibGF0Ijo2My44NjA0NSwibG9uIjoyMy40NTM0MX19XX0seyJ0eXBlIjoiUE9JIiwiaWQiOiJUT2JJTlNLYTJyTGNCQzE2bXI3MHlRIiwic2NvcmUiOjkxLjA2NTYyODA1MTgsImRpc3QiOjg5MzQuMzcyNzIsImluZm8iOiJzZWFyY2g6dGE6MjQ2MDA3MDAwMDI3NzIwLUZJIiwicG9pIjp7Im5hbWUiOiJPdHRvIiwiYnJhbmRzIjpbeyJuYW1lIjoiT3R0byJ9XSwiY2F0ZWdvcnlTZXQiOlt7ImlkIjo3Mzk3fV0sInVybCI6Ind3dy5vdHRvLmZpLyIsImNhdGVnb3JpZXMiOlsiY2FzaCBkaXNwZW5zZXIiXSwiY2xhc3NpZmljYXRpb25zIjpbeyJjb2RlIjoiQ0FTSF9ESVNQRU5TRVIiLCJuYW1lcyI6W3sibmFtZUxvY2FsZSI6ImVuLVVTIiwibmFtZSI6ImNhc2ggZGlzcGVuc2VyIn1dfV19LCJhZGRyZXNzIjp7InN0cmVldE51bWJlciI6IjkiLCJzdHJlZXROYW1lIjoiSGVpbm9sYW5rYWFyaSIsIm11bmljaXBhbGl0eSI6Iktva2tvbGEiLCJjb3VudHJ5U3ViZGl2aXNpb24iOiJLZXNraS1Qb2hqYW5tYWEiLCJwb3N0YWxDb2RlIjoiNjc2MDAiLCJjb3VudHJ5Q29kZSI6IkZJIiwiY291bnRyeSI6IlN1b21pIiwiY291bnRyeUNvZGVJU08zIjoiRklOIiwiZnJlZWZvcm1BZGRyZXNzIjoiSGVpbm9sYW5rYWFyaSA5LCA2NzYwMCBLb2trb2xhIiwibG9jYWxOYW1lIjoiS29ra29sYSJ9LCJwb3NpdGlvbiI6eyJsYXQiOjYzLjgyNzQzNiwibG9uIjoyMy4xNTU3OTd9LCJ2aWV3cG9ydCI6eyJ0b3BMZWZ0UG9pbnQiOnsibGF0Ijo2My44MjgzNCwibG9uIjoyMy4xNTM3Nn0sImJ0bVJpZ2h0UG9pbnQiOnsibGF0Ijo2My44MjY1NCwibG9uIjoyMy4xNTc4NH19LCJlbnRyeVBvaW50cyI6W3sidHlwZSI6Im1haW4iLCJwb3NpdGlvbiI6eyJsYXQiOjYzLjgyNzM1LCJsb24iOjIzLjE1NTg1fX1dfSx7InR5cGUiOiJQT0kiLCJpZCI6Ing0SEdyLUhmMENjeXF5VUloTHhfMGciLCJzY29yZSI6OTEuMDY1NTk3NTM0MiwiZGlzdCI6ODkzNC40MDcyNTksImluZm8iOiJzZWFyY2g6dGE6MjQ2MDA5MDAzODUzNjcxLUZJIiwicG9pIjp7Im5hbWUiOiJLLUNJVFlNQVJLRVQgS09LS09MQSIsImJyYW5kcyI6W3sibmFtZSI6Ik90dG8ifV0sImNhdGVnb3J5U2V0IjpbeyJpZCI6NzM5N31dLCJjYXRlZ29yaWVzIjpbImNhc2ggZGlzcGVuc2VyIl0sImNsYXNzaWZpY2F0aW9ucyI6W3siY29kZSI6IkNBU0hfRElTUEVOU0VSIiwibmFtZXMiOlt7Im5hbWVMb2NhbGUiOiJlbi1VUyIsIm5hbWUiOiJjYXNoIGRpc3BlbnNlciJ9XX1dfSwiYWRkcmVzcyI6eyJzdHJlZXROdW1iZXIiOiI5Iiwic3RyZWV0TmFtZSI6IkhlaW5vbGFua2FhcmkiLCJtdW5pY2lwYWxpdHkiOiJLb2trb2xhIiwiY291bnRyeVN1YmRpdmlzaW9uIjoiS2Vza2ktUG9oamFubWFhIiwicG9zdGFsQ29kZSI6IjY3NjAwIiwiY291bnRyeUNvZGUiOiJGSSIsImNvdW50cnkiOiJTdW9taSIsImNvdW50cnlDb2RlSVNPMyI6IkZJTiIsImZyZWVmb3JtQWRkcmVzcyI6IkhlaW5vbGFua2FhcmkgOSwgNjc2MDAgS29ra29sYSIsImxvY2FsTmFtZSI6Iktva2tvbGEifSwicG9zaXRpb24iOnsibGF0Ijo2My44Mjc0MzcsImxvbiI6MjMuMTU1Nzk2fSwidmlld3BvcnQiOnsidG9wTGVmdFBvaW50Ijp7ImxhdCI6NjMuODI4MzQsImxvbiI6MjMuMTUzNzZ9LCJidG1SaWdodFBvaW50Ijp7ImxhdCI6NjMuODI2NTQsImxvbiI6MjMuMTU3ODN9fSwiZW50cnlQb2ludHMiOlt7InR5cGUiOiJtYWluIiwicG9zaXRpb24iOnsibGF0Ijo2My44MjczNSwibG9uIjoyMy4xNTU4NX19XX0seyJ0eXBlIjoiUE9JIiwiaWQiOiJKemVQdDV4SzE2aDdPQ3YydXR1c2d3Iiwic2NvcmUiOjkxLjAzOTAwOTA5NDIsImRpc3QiOjg5NjAuOTkzNTU3LCJpbmZvIjoic2VhcmNoOnRhOjI0NjAwNzAwMDAyNzcxNy1GSSIsInBvaSI6eyJuYW1lIjoiT3R0byIsImJyYW5kcyI6W3sibmFtZSI6Ik90dG8ifV0sImNhdGVnb3J5U2V0IjpbeyJpZCI6NzM5N31dLCJ1cmwiOiJ3d3cub3R0by5maS8iLCJjYXRlZ29yaWVzIjpbImNhc2ggZGlzcGVuc2VyIl0sImNsYXNzaWZpY2F0aW9ucyI6W3siY29kZSI6IkNBU0hfRElTUEVOU0VSIiwibmFtZXMiOlt7Im5hbWVMb2NhbGUiOiJlbi1VUyIsIm5hbWUiOiJjYXNoIGRpc3BlbnNlciJ9XX1dfSwiYWRkcmVzcyI6eyJzdHJlZXROdW1iZXIiOiI5Iiwic3RyZWV0TmFtZSI6IkthdXBwYWthYXJpIiwibXVuaWNpcGFsaXR5IjoiS29ra29sYSIsImNvdW50cnlTdWJkaXZpc2lvbiI6Iktlc2tpLVBvaGphbm1hYSIsInBvc3RhbENvZGUiOiI2NzYwMCIsImNvdW50cnlDb2RlIjoiRkkiLCJjb3VudHJ5IjoiU3VvbWkiLCJjb3VudHJ5Q29kZUlTTzMiOiJGSU4iLCJmcmVlZm9ybUFkZHJlc3MiOiJLYXVwcGFrYWFyaSA5LCA2NzYwMCBLb2trb2xhIiwibG9jYWxOYW1lIjoiS29ra29sYSJ9LCJwb3NpdGlvbiI6eyJsYXQiOjYzLjgyOTM4LCJsb24iOjIzLjE1NTc4fSwidmlld3BvcnQiOnsidG9wTGVmdFBvaW50Ijp7ImxhdCI6NjMuODMwMjgsImxvbiI6MjMuMTUzNzR9LCJidG1SaWdodFBvaW50Ijp7ImxhdCI6NjMuODI4NDgsImxvbiI6MjMuMTU3ODJ9fSwiZW50cnlQb2ludHMiOlt7InR5cGUiOiJtYWluIiwicG9zaXRpb24iOnsibGF0Ijo2My44MjksImxvbiI6MjMuMTU1MTN9fV19LHsidHlwZSI6IlBPSSIsImlkIjoibExxOTdOd0RPN2FoQ2Y1WG1oR2QtQSIsInNjb3JlIjo5MC45MDA5NjI4Mjk2LCJkaXN0Ijo5MDk5LjAzNzY3NSwiaW5mbyI6InNlYXJjaDp0YToyNDYwMDkwMDM3MzM0MzEtRkkiLCJwb2kiOnsibmFtZSI6IkFCQyBLT0tLT0xBIiwiYnJhbmRzIjpbeyJuYW1lIjoiT3R0byJ9XSwiY2F0ZWdvcnlTZXQiOlt7ImlkIjo3Mzk3fV0sImNhdGVnb3JpZXMiOlsiY2FzaCBkaXNwZW5zZXIiXSwiY2xhc3NpZmljYXRpb25zIjpbeyJjb2RlIjoiQ0FTSF9ESVNQRU5TRVIiLCJuYW1lcyI6W3sibmFtZUxvY2FsZSI6ImVuLVVTIiwibmFtZSI6ImNhc2ggZGlzcGVuc2VyIn1dfV19LCJhZGRyZXNzIjp7InN0cmVldE51bWJlciI6IjEiLCJzdHJlZXROYW1lIjoiSGVpbm9sYW5rYWFyaSIsIm11bmljaXBhbGl0eSI6Iktva2tvbGEiLCJjb3VudHJ5U3ViZGl2aXNpb24iOiJLZXNraS1Qb2hqYW5tYWEiLCJwb3N0YWxDb2RlIjoiNjc2MDAiLCJjb3VudHJ5Q29kZSI6IkZJIiwiY291bnRyeSI6IlN1b21pIiwiY291bnRyeUNvZGVJU08zIjoiRklOIiwiZnJlZWZvcm1BZGRyZXNzIjoiSGVpbm9sYW5rYWFyaSAxLCA2NzYwMCBLb2trb2xhIiwibG9jYWxOYW1lIjoiS29ra29sYSJ9LCJwb3NpdGlvbiI6eyJsYXQiOjYzLjgyNzQ1NiwibG9uIjoyMy4xNTI0MjV9LCJ2aWV3cG9ydCI6eyJ0b3BMZWZ0UG9pbnQiOnsibGF0Ijo2My44MjgzNiwibG9uIjoyMy4xNTAzOX0sImJ0bVJpZ2h0UG9pbnQiOnsibGF0Ijo2My44MjY1NiwibG9uIjoyMy4xNTQ0Nn19LCJlbnRyeVBvaW50cyI6W3sidHlwZSI6Im1haW4iLCJwb3NpdGlvbiI6eyJsYXQiOjYzLjgyNzYsImxvbiI6MjMuMTUyNjR9fV19LHsidHlwZSI6IlBPSSIsImlkIjoiaTJhYk1EdEMwaVFmbDdzUW9Jb0hxQSIsInNjb3JlIjo5MC4yNzc3MTc1OTAzLCJkaXN0Ijo5NzIyLjI4NTg1MiwiaW5mbyI6InNlYXJjaDp0YToyNDYwMDcwMDAwMjc3MjEtRkkiLCJwb2kiOnsibmFtZSI6Ik90dG8iLCJicmFuZHMiOlt7Im5hbWUiOiJPdHRvIn1dLCJjYXRlZ29yeVNldCI6W3siaWQiOjczOTd9XSwidXJsIjoid3d3Lm90dG8uZmkvIiwiY2F0ZWdvcmllcyI6WyJjYXNoIGRpc3BlbnNlciJdLCJjbGFzc2lmaWNhdGlvbnMiOlt7ImNvZGUiOiJDQVNIX0RJU1BFTlNFUiIsIm5hbWVzIjpbeyJuYW1lTG9jYWxlIjoiZW4tVVMiLCJuYW1lIjoiY2FzaCBkaXNwZW5zZXIifV19XX0sImFkZHJlc3MiOnsibXVuaWNpcGFsaXR5IjoiS29ra29sYSIsImNvdW50cnlTdWJkaXZpc2lvbiI6Iktlc2tpLVBvaGphbm1hYSIsInBvc3RhbENvZGUiOiI2NzEwMCIsImNvdW50cnlDb2RlIjoiRkkiLCJjb3VudHJ5IjoiU3VvbWkiLCJjb3VudHJ5Q29kZUlTTzMiOiJGSU4iLCJmcmVlZm9ybUFkZHJlc3MiOiI2NzEwMCBLb2trb2xhIiwibG9jYWxOYW1lIjoiS29ra29sYSJ9LCJwb3NpdGlvbiI6eyJsYXQiOjYzLjgzNTgxLCJsb24iOjIzLjE0MjQ2fSwidmlld3BvcnQiOnsidG9wTGVmdFBvaW50Ijp7ImxhdCI6NjMuODM2NzEsImxvbiI6MjMuMTQwNDJ9LCJidG1SaWdodFBvaW50Ijp7ImxhdCI6NjMuODM0OTEsImxvbiI6MjMuMTQ0NX19LCJlbnRyeVBvaW50cyI6W3sidHlwZSI6Im1haW4iLCJwb3NpdGlvbiI6eyJsYXQiOjYzLjgzNTUxLCJsb24iOjIzLjE0MjM1fX1dfSx7InR5cGUiOiJQT0kiLCJpZCI6IlFTR0RhdGxSVDRSUGhMOS14X1V5OFEiLCJzY29yZSI6OTAuMTA2NTM2ODY1MiwiZGlzdCI6OTg5My40NjcyOTEsImluZm8iOiJzZWFyY2g6dGE6MjQ2MDA5MDAzNzEzODI2LUZJIiwicG9pIjp7Im5hbWUiOiJLQUxMRU5UT1JJIiwiYnJhbmRzIjpbeyJuYW1lIjoiT3R0byJ9XSwiY2F0ZWdvcnlTZXQiOlt7ImlkIjo3Mzk3fV0sImNhdGVnb3JpZXMiOlsiY2FzaCBkaXNwZW5zZXIiXSwiY2xhc3NpZmljYXRpb25zIjpbeyJjb2RlIjoiQ0FTSF9ESVNQRU5TRVIiLCJuYW1lcyI6W3sibmFtZUxvY2FsZSI6ImVuLVVTIiwibmFtZSI6ImNhc2ggZGlzcGVuc2VyIn1dfV19LCJhZGRyZXNzIjp7InN0cmVldE51bWJlciI6IjE3Iiwic3RyZWV0TmFtZSI6IlBpdGvDpG5zaWxsYW5rYXR1IiwibXVuaWNpcGFsaXR5IjoiS29ra29sYSIsImNvdW50cnlTdWJkaXZpc2lvbiI6Iktlc2tpLVBvaGphbm1hYSIsInBvc3RhbENvZGUiOiI2NzEwMCIsImNvdW50cnlDb2RlIjoiRkkiLCJjb3VudHJ5IjoiU3VvbWkiLCJjb3VudHJ5Q29kZUlTTzMiOiJGSU4iLCJmcmVlZm9ybUFkZHJlc3MiOiJQaXRrw6Ruc2lsbGFua2F0dSAxNywgNjcxMDAgS29ra29sYSIsImxvY2FsTmFtZSI6Iktva2tvbGEifSwicG9zaXRpb24iOnsibGF0Ijo2My44Mzc4MDMsImxvbiI6MjMuMTM5ODM1fSwidmlld3BvcnQiOnsidG9wTGVmdFBvaW50Ijp7ImxhdCI6NjMuODM4NywibG9uIjoyMy4xMzc4fSwiYnRtUmlnaHRQb2ludCI6eyJsYXQiOjYzLjgzNjksImxvbiI6MjMuMTQxODd9fSwiZW50cnlQb2ludHMiOlt7InR5cGUiOiJtYWluIiwicG9zaXRpb24iOnsibGF0Ijo2My44Mzc4OCwibG9uIjoyMy4xMzk3NX19XX0seyJ0eXBlIjoiUE9JIiwiaWQiOiJWX2d6SFVzNFNaWjU0WmdOd0VqbnF3Iiwic2NvcmUiOjkwLjAwMTE5NzgxNDksImRpc3QiOjk5OTguNzk5NzEyLCJpbmZvIjoic2VhcmNoOnRhOjI0NjAwOTAwMzc0OTEyNy1GSSIsInBvaSI6eyJuYW1lIjoiSy1TVVBFUk1BUktFVCBLT0tLT0xBIiwiYnJhbmRzIjpbeyJuYW1lIjoiT3R0byJ9XSwiY2F0ZWdvcnlTZXQiOlt7ImlkIjo3Mzk3fV0sImNhdGVnb3JpZXMiOlsiY2FzaCBkaXNwZW5zZXIiXSwiY2xhc3NpZmljYXRpb25zIjpbeyJjb2RlIjoiQ0FTSF9ESVNQRU5TRVIiLCJuYW1lcyI6W3sibmFtZUxvY2FsZSI6ImVuLVVTIiwibmFtZSI6ImNhc2ggZGlzcGVuc2VyIn1dfV19LCJhZGRyZXNzIjp7InN0cmVldE5hbWUiOiJSYXV0YXRpZW5rYXR1IiwibXVuaWNpcGFsaXR5IjoiS29ra29sYSIsImNvdW50cnlTdWJkaXZpc2lvbiI6Iktlc2tpLVBvaGphbm1hYSIsInBvc3RhbENvZGUiOiI2NzEwMCIsImNvdW50cnlDb2RlIjoiRkkiLCJjb3VudHJ5IjoiU3VvbWkiLCJjb3VudHJ5Q29kZUlTTzMiOiJGSU4iLCJmcmVlZm9ybUFkZHJlc3MiOiJSYXV0YXRpZW5rYXR1LCA2NzEwMCBLb2trb2xhIiwibG9jYWxOYW1lIjoiS29ra29sYSJ9LCJwb3NpdGlvbiI6eyJsYXQiOjYzLjgzNTA2OCwibG9uIjoyMy4xMzYzOTh9LCJ2aWV3cG9ydCI6eyJ0b3BMZWZ0UG9pbnQiOnsibGF0Ijo2My44MzU5NywibG9uIjoyMy4xMzQzNn0sImJ0bVJpZ2h0UG9pbnQiOnsibGF0Ijo2My44MzQxNywibG9uIjoyMy4xMzg0NH19LCJlbnRyeVBvaW50cyI6W3sidHlwZSI6Im1haW4iLCJwb3NpdGlvbiI6eyJsYXQiOjYzLjgzNTE2LCJsb24iOjIzLjEzNjM3fX1dfV19
+  recorded_at: Thu, 31 Aug 2023 23:40:43 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=73.51022412193225&lon=71.36592473482142
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 31 Aug 2023 23:41:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 25a5c7aa-b865-445f-8059-978be2850983
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '20'
+      X-Envoy-Upstream-Service-Time:
+      - '24'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":17,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":73.51022412193225,"lon":71.36592473482142},"geobiasCountry":"RU"},"results":[]}'
+  recorded_at: Thu, 31 Aug 2023 23:41:11 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=23.532619799800827&lon=-85.98462491600633
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 31 Aug 2023 23:50:29 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - ffdf5c4a-374b-4ff3-921d-80e65bba12f7
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '25'
+      X-Envoy-Upstream-Service-Time:
+      - '35'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":22,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":23.532619799800827,"lon":-85.98462491600633},"geobiasCountry":"UM"},"results":[]}'
+  recorded_at: Thu, 31 Aug 2023 23:50:30 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json/&lat=-14.96044310422458&lon=-103.73938806758538&categorySet=7397?key=<TOMTOM_API_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Thu, 31 Aug 2023 23:53:57 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 934fc3c7-1c0c-4d60-9284-b63bc6f7155f
+      X-Apigee.target-Latency:
+      - '2'
+      X-Envoy-Upstream-Service-Time:
+      - '15'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"httpStatusCode":404,"errorText":"Not Found","detailedError":{"code":"NotFound","message":"URL
+        not found"}}'
+  recorded_at: Thu, 31 Aug 2023 23:53:57 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=-5.8454709541539955&lon=121.30619321838202
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 00:00:02 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 241886d0-cc02-4ec4-a918-432f45a38f1f
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '23'
+      X-Envoy-Upstream-Service-Time:
+      - '33'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":19,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":-5.8454709541539955,"lon":121.30619321838202},"geobiasCountry":"ID"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 00:00:02 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=-5.8454709541539955&lon=121.30619321838202
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 00:00:10 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - a950088b-4260-4090-b040-4da91ccc5bc8
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '7'
+      X-Envoy-Upstream-Service-Time:
+      - '17'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":5,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":-5.8454709541539955,"lon":121.30619321838202},"geobiasCountry":"ID"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 00:00:10 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=68.6576&lon=126.2004
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 00:02:31 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - eeeba5c1-1be3-4cd8-a109-5a87845ce407
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '22'
+      X-Envoy-Upstream-Service-Time:
+      - '31'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":19,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":68.6576,"lon":126.2004},"geobiasCountry":"RU"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 00:02:31 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=-89.5740466871414&lon=-122.43972386406125
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 00:04:31 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 4ad4eb3e-67e1-41f2-ad70-62f2a9896156
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '18'
+      X-Envoy-Upstream-Service-Time:
+      - '35'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":16,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":-89.5740466871414,"lon":-122.43972386406125},"geobiasCountry":"AQ"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 00:04:31 GMT
+recorded_with: VCR 6.2.0
