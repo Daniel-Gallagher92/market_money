@@ -1,9 +1,8 @@
 class NearestAtmFacade
 
-  def self.nearest_atm(market)
-
+  def self.nearest_atm(lat, lon)
     service = NearestAtmService.new
-    raw_atms = service.nearest_atms(market)[:results]
+    raw_atms = service.nearest_atms(lat, lon)[:results]
     raw_atms.map do |raw_atm|
       NearestAtm.new(raw_atm)
     end

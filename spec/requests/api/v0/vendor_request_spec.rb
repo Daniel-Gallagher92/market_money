@@ -11,7 +11,7 @@ RSpec.describe 'Vendor API', type: :request do
 
       vendor_response = JSON.parse(response.body, symbolize_names: true)
       data = vendor_response[:data]
-
+      
       expect(data[:id]).to be_a(String)
       expect(data[:type]).to eq('vendor')
       expect(data[:attributes]).to be_a(Hash)
@@ -159,6 +159,29 @@ RSpec.describe 'Vendor API', type: :request do
       nope = JSON.parse(response.body, symbolize_names: true)[:errors].first
 
       expect(nope[:details]).to eq("Couldn't find Vendor with 'id'=90210090210")
+    end
+  end
+
+  describe 'ActiveRecord Challenge' do 
+    it 'Get one Vendor, list states that vendor sells in' do 
+      fl_market = create(:market, state: "Florida")
+      co_market = create(:market, state: "Colorado")
+      vendor = create(:vendor)
+      fl_market_vendor = vendor.market_vendors.create!(market_id: fl_market.id)
+      co_market_vendor = vendor.market_vendors.create!(market_id: co_market.id)
+
+
+      get "/api/v0/vendors/#{vendor.id}"
+
+      expect(response).to have_http_status(200)
+
+      vendor_response = JSON.parse(response.body, symbolize_names: true)
+      data = vendor_response[:data]
+
+      expect(response).to have_http_status(200)
+      expect(data[:attributes][:states_sold_in]).to be_an(Array)
+      expect(data[:attributes][:states_sold_in].count).to eq(2)
+      expect(data[:attributes][:states_sold_in]).to eq(["Florida", "Colorado"])
     end
   end
 end

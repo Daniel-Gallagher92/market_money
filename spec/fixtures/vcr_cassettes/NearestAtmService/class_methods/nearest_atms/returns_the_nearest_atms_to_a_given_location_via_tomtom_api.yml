@@ -704,4 +704,224 @@ http_interactions:
       encoding: ASCII-8BIT
       string: '{"summary":{"queryType":"NEARBY","queryTime":16,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":-89.5740466871414,"lon":-122.43972386406125},"geobiasCountry":"AQ"},"results":[]}'
   recorded_at: Fri, 01 Sep 2023 00:04:31 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=6.312444934925722&lon=22.548472342062126
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 16:18:52 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 3393da9d-2754-4636-84b9-923f1a2d01bf
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '20'
+      X-Envoy-Upstream-Service-Time:
+      - '34'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":18,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":6.312444934925722,"lon":22.548472342062126},"geobiasCountry":"CF"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 16:18:52 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=-82.6155756531553&lon=51.516759174674036
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 18:20:27 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - db50789f-48c4-4d3f-8cf1-4f2d7e3e18c4
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '16'
+      X-Envoy-Upstream-Service-Time:
+      - '27'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":14,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":-82.6155756531553,"lon":51.516759174674036},"geobiasCountry":"AQ"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 18:20:27 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=16.206347575301976&lon=25.979354036362167
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 21:21:16 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 400798a7-1ecf-4333-8fb9-3a00c0155caf
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '16'
+      X-Envoy-Upstream-Service-Time:
+      - '29'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":14,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":16.206347575301976,"lon":25.979354036362167},"geobiasCountry":"SD"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 21:21:16 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=-82.79597276574502&lon=-83.17397188486974
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 22:01:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 762d0e0c-1a79-4c44-968a-de2b33d38175
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '19'
+      X-Envoy-Upstream-Service-Time:
+      - '30'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":17,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":-82.79597276574502,"lon":-83.17397188486974},"geobiasCountry":"AQ"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 22:01:11 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=-26.674160034428134&lon=65.48777807343112
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 22:01:26 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 7286806e-bbca-4db6-95a7-cfd258d6ff39
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '16'
+      X-Envoy-Upstream-Service-Time:
+      - '28'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":15,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":-26.674160034428134,"lon":65.48777807343112},"geobiasCountry":"ZZ"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 22:01:26 GMT
 recorded_with: VCR 6.2.0
