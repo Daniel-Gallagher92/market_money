@@ -924,4 +924,1094 @@ http_interactions:
       encoding: ASCII-8BIT
       string: '{"summary":{"queryType":"NEARBY","queryTime":15,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":-26.674160034428134,"lon":65.48777807343112},"geobiasCountry":"ZZ"},"results":[]}'
   recorded_at: Fri, 01 Sep 2023 22:01:26 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=41.38962618478263&lon=5.122005194529663
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 22:03:36 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 979a4030-6427-4247-b770-16b8a4fbece5
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '20'
+      X-Envoy-Upstream-Service-Time:
+      - '34'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":17,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":41.38962618478263,"lon":5.122005194529663},"geobiasCountry":"FR"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 22:03:36 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=-37.30218846449194&lon=-144.9063925593581
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 22:12:44 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - f19d3550-2d47-4ee0-af6d-8f8447822bbb
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '18'
+      X-Envoy-Upstream-Service-Time:
+      - '30'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":16,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":-37.30218846449194,"lon":-144.9063925593581},"geobiasCountry":"ZZ"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 22:12:44 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=-44.23187659306567&lon=-26.756233447940417
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 22:15:52 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - e12903fe-3c4f-4149-9a2b-1e87aec24965
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '20'
+      X-Envoy-Upstream-Service-Time:
+      - '30'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":17,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":-44.23187659306567,"lon":-26.756233447940417},"geobiasCountry":"ZZ"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 22:15:52 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=-25.11924721603677&lon=161.0819909109145
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 22:19:38 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 5cac7740-1fb2-4c33-926c-679d71c84387
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '17'
+      X-Envoy-Upstream-Service-Time:
+      - '28'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":14,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":-25.11924721603677,"lon":161.0819909109145},"geobiasCountry":"ZZ"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 22:19:38 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=-89.31343064188786&lon=-82.59879641671169
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 22:30:57 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 9e6663ff-0c22-4e0d-b2de-9d1af292ec05
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '16'
+      X-Envoy-Upstream-Service-Time:
+      - '28'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":14,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":-89.31343064188786,"lon":-82.59879641671169},"geobiasCountry":"AQ"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 22:30:57 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=60.940113627005815&lon=26.927808982895982
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 22:33:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 28741726-fadc-4432-9e97-16ff9a248df1
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '33'
+      X-Envoy-Upstream-Service-Time:
+      - '43'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":31,"numResults":2,"offset":0,"totalResults":2,"fuzzyLevel":1,"geoBias":{"lat":60.940113627005815,"lon":26.927808982895982},"geobiasCountry":"FI"},"results":[{"type":"POI","id":"OirwQsAodkXoNtJauKPdrg","score":94.8574447632,"dist":5142.555743,"info":"search:ta:246009003744133-FI","poi":{"name":"ABC
+        UTTI","brands":[{"name":"Otto"}],"categorySet":[{"id":7397}],"categories":["cash
+        dispenser"],"classifications":[{"code":"CASH_DISPENSER","names":[{"nameLocale":"en-US","name":"cash
+        dispenser"}]}]},"address":{"streetNumber":"3","streetName":"Lentoportintie","municipality":"Kouvola","countrySubdivision":"Kymenlaakso","postalCode":"45410","countryCode":"FI","country":"Suomi","countryCodeISO3":"FIN","freeformAddress":"Lentoportintie
+        3, 45410 Utti","localName":"Utti"},"position":{"lat":60.89458,"lon":26.91115},"viewport":{"topLeftPoint":{"lat":60.89548,"lon":26.9093},"btmRightPoint":{"lat":60.89368,"lon":26.913}},"entryPoints":[{"type":"main","position":{"lat":60.89467,"lon":26.91124}}]},{"type":"POI","id":"2_uwB4ievkv-DS9zh9Gy-g","score":93.0388870239,"dist":6961.112312,"info":"search:ta:246009003697267-FI","poi":{"name":"ABC
+        VALKEALA","brands":[{"name":"Otto"}],"categorySet":[{"id":7397}],"categories":["cash
+        dispenser"],"classifications":[{"code":"CASH_DISPENSER","names":[{"nameLocale":"en-US","name":"cash
+        dispenser"}]}]},"address":{"streetNumber":"1","streetName":"Kalevantie","municipalitySubdivision":"Valkeala","municipality":"Kouvola","countrySubdivision":"Kymenlaakso","postalCode":"45370","countryCode":"FI","country":"Suomi","countryCodeISO3":"FIN","freeformAddress":"Kalevantie
+        1, 45370 Valkeala","localName":"Valkeala"},"position":{"lat":60.93002,"lon":26.80063},"viewport":{"topLeftPoint":{"lat":60.93092,"lon":26.79878},"btmRightPoint":{"lat":60.92912,"lon":26.80248}},"entryPoints":[{"type":"main","position":{"lat":60.93009,"lon":26.80076}}]}]}'
+  recorded_at: Fri, 01 Sep 2023 22:33:11 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=-4.176501929595432&lon=-101.51201242942616
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 22:34:36 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 3a2fffab-8238-469f-a9c4-5d9cf5673104
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '17'
+      X-Envoy-Upstream-Service-Time:
+      - '30'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":15,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":-4.176501929595432,"lon":-101.51201242942616},"geobiasCountry":"ZZ"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 22:34:36 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=-17.193317698010688&lon=112.30769228065367
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 22:34:53 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 3137b378-535c-4d52-9d06-e82f248e9f0e
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '23'
+      X-Envoy-Upstream-Service-Time:
+      - '32'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":20,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":-17.193317698010688,"lon":112.30769228065367},"geobiasCountry":"ZZ"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 22:34:53 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=-21.231542860712466&lon=6.64568237334791
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 22:36:39 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 38ea5606-c9d2-4f6d-a822-6dd6bff13e80
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '16'
+      X-Envoy-Upstream-Service-Time:
+      - '21'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":15,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":-21.231542860712466,"lon":6.64568237334791},"geobiasCountry":"ZZ"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 22:36:39 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=-65.52681448934018&lon=-81.80125499187426
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 22:38:10 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - a3fae197-a61a-4dfc-b88e-3762fa79955c
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '16'
+      X-Envoy-Upstream-Service-Time:
+      - '21'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":14,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":-65.52681448934018,"lon":-81.80125499187426},"geobiasCountry":"AQ"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 22:38:10 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=-53.44627633601313&lon=-33.968147615424044
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 22:38:24 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 9fef4dc3-532c-467d-aee9-38f6cdd3ed0d
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '17'
+      X-Envoy-Upstream-Service-Time:
+      - '22'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":14,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":-53.44627633601313,"lon":-33.968147615424044},"geobiasCountry":"ZZ"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 22:38:24 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=-1.6604382017177954&lon=-95.32185899203635
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 22:38:37 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - b1affc81-617e-4186-9be7-c6f974f73638
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '16'
+      X-Envoy-Upstream-Service-Time:
+      - '32'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":15,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":-1.6604382017177954,"lon":-95.32185899203635},"geobiasCountry":"ZZ"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 22:38:37 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=-68.99577822101527&lon=16.63716231133668
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 22:39:37 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 57a88654-4cf7-4d53-9b12-a908a38769a5
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '16'
+      X-Envoy-Upstream-Service-Time:
+      - '26'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":14,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":-68.99577822101527,"lon":16.63716231133668},"geobiasCountry":"AQ"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 22:39:37 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=28.838040062182372&lon=10.343720832785834
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 22:40:52 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - a02bd05f-3ada-4253-9709-17a87a8d7b86
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '18'
+      X-Envoy-Upstream-Service-Time:
+      - '30'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":15,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":28.838040062182372,"lon":10.343720832785834},"geobiasCountry":"LY"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 22:40:52 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=69.01570338327403&lon=-4.057090787579426
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 22:45:09 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 4189de41-cb81-4dd8-b094-dc078ecba758
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '71'
+      X-Envoy-Upstream-Service-Time:
+      - '86'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":68,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":69.01570338327403,"lon":-4.057090787579426},"geobiasCountry":"ZZ"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 22:45:09 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=-81.77254195506231&lon=66.40681040590516
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 22:45:16 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 9635aca6-fcee-4f88-b36a-0cb8d7d3bdd6
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '17'
+      X-Envoy-Upstream-Service-Time:
+      - '28'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":14,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":-81.77254195506231,"lon":66.40681040590516},"geobiasCountry":"AQ"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 22:45:16 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=43.241161499205845&lon=-84.73170087529414
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 22:49:56 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - f4ca654e-b8bf-48ce-905c-a17fb59e1886
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '29'
+      X-Envoy-Upstream-Service-Time:
+      - '41'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":25,"numResults":2,"offset":0,"totalResults":2,"fuzzyLevel":1,"geoBias":{"lat":43.241161499205845,"lon":-84.73170087529414},"geobiasCountry":"US"},"results":[{"type":"POI","id":"mQZYICvQr_AMbNoHvw_uOw","score":93.2678909302,"dist":6732.1148,"info":"search:ta:840261000677295-US","poi":{"name":"Commercial
+        Bank","phone":"+1 989-236-7236","brands":[{"name":"Fidelity"}],"categorySet":[{"id":7397}],"url":"www.commercial-bank.com","categories":["cash
+        dispenser"],"classifications":[{"code":"CASH_DISPENSER","names":[{"nameLocale":"en-US","name":"cash
+        dispenser"}]}]},"address":{"streetNumber":"101","streetName":"North Newton
+        Street","municipality":"Fulton","countrySecondarySubdivision":"Gratiot","countrySubdivision":"MI","countrySubdivisionName":"Michigan","postalCode":"48856","extendedPostalCode":"48856-5107","countryCode":"US","country":"United
+        States","countryCodeISO3":"USA","freeformAddress":"101 North Newton Street,
+        Middleton, MI 48856","localName":"Middleton"},"position":{"lat":43.182886,"lon":-84.70918},"viewport":{"topLeftPoint":{"lat":43.18379,"lon":-84.71041},"btmRightPoint":{"lat":43.18199,"lon":-84.70795}},"entryPoints":[{"type":"main","position":{"lat":43.18215,"lon":-84.70883}},{"type":"main","position":{"lat":43.18288,"lon":-84.70882}}]},{"type":"POI","id":"8iBf7-mmhAlgy6xhJdtYYA","score":92.7261199951,"dist":7273.882178,"info":"search:ta:840269003729382-US","poi":{"name":"Pueblo
+        Bank And Trust Company","categorySet":[{"id":7397}],"categories":["cash dispenser"],"classifications":[{"code":"CASH_DISPENSER","names":[{"nameLocale":"en-US","name":"cash
+        dispenser"}]}]},"address":{"streetNumber":"5300","streetName":"Cleveland Road","municipality":"North
+        Shade","countrySecondarySubdivision":"Gratiot","countrySubdivision":"MI","countrySubdivisionName":"Michigan","postalCode":"48856","extendedPostalCode":"48856-5158","countryCode":"US","country":"United
+        States","countryCodeISO3":"USA","freeformAddress":"5300 Cleveland Road, Middleton,
+        MI 48856","localName":"Middleton"},"position":{"lat":43.176124,"lon":-84.722072},"viewport":{"topLeftPoint":{"lat":43.17702,"lon":-84.72331},"btmRightPoint":{"lat":43.17522,"lon":-84.72084}},"entryPoints":[{"type":"main","position":{"lat":43.17603,"lon":-84.72207}}]}]}'
+  recorded_at: Fri, 01 Sep 2023 22:49:56 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=58.693619095909185&lon=-115.94009946145495
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 22:50:15 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - eaf9972e-2751-4231-9a07-e383d82b48e4
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '36'
+      X-Envoy-Upstream-Service-Time:
+      - '44'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":26,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":58.693619095909185,"lon":-115.94009946145495},"geobiasCountry":"CA"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 22:50:15 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=-47.02753648123854&lon=-106.85753064412
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 22:50:23 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 8b7fad80-ab8f-4e36-a2e0-d9a3daaee62f
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '17'
+      X-Envoy-Upstream-Service-Time:
+      - '30'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":15,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":-47.02753648123854,"lon":-106.85753064412},"geobiasCountry":"CL"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 22:50:23 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=-79.08640180411814&lon=-123.57186513010538
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 22:50:32 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 3a17347a-2c01-4e17-95f3-b1466c448840
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '17'
+      X-Envoy-Upstream-Service-Time:
+      - '28'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":15,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":-79.08640180411814,"lon":-123.57186513010538},"geobiasCountry":"AQ"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 22:50:32 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=16.993688127399793&lon=-69.90150405047918
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 22:52:28 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 2c6e45ec-13ab-49b5-9fa1-d4a238db0d83
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '17'
+      X-Envoy-Upstream-Service-Time:
+      - '27'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":15,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":16.993688127399793,"lon":-69.90150405047918},"geobiasCountry":"ZZ"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 22:52:28 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=86.93016502799068&lon=-98.85055739629031
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 22:52:39 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - 7d81ea37-1aed-41ce-9edd-c84c4ecf5644
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '32'
+      X-Envoy-Upstream-Service-Time:
+      - '39'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":29,"numResults":0,"offset":0,"totalResults":0,"fuzzyLevel":2,"geoBias":{"lat":86.93016502799068,"lon":-98.85055739629031},"geobiasCountry":"ZZ"},"results":[]}'
+  recorded_at: Fri, 01 Sep 2023 22:52:39 GMT
+- request:
+    method: get
+    uri: https://api.tomtom.com/search/2/nearbySearch/.json?categorySet=7397&key=<TOMTOM_API_KEY>&lat=35.07904&lon=-106.60068
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 01 Sep 2023 23:15:30 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Access-Control-Allow-Origin:
+      - "*"
+      Tracking-Id:
+      - d2fc3bb7-7128-485a-8a1e-e5220f486af6
+      Access-Control-Expose-Headers:
+      - Tracking-ID
+      X-Apigee.target-Latency:
+      - '47'
+      X-Envoy-Upstream-Service-Time:
+      - '57'
+      Server:
+      - tomtom
+      X-Tomtom-Processed-By:
+      - westus2
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"summary":{"queryType":"NEARBY","queryTime":44,"numResults":10,"offset":0,"totalResults":10,"fuzzyLevel":1,"geoBias":{"lat":35.07904,"lon":-106.60068},"geobiasCountry":"US"},"results":[{"type":"POI","id":"zCkCLyNT3JUF8Kf5TsnodA","score":99.9995574951,"dist":0.445287,"info":"search:ta:840359000810929-US","poi":{"name":"ATM","categorySet":[{"id":7397}],"categories":["cash
+        dispenser"],"classifications":[{"code":"CASH_DISPENSER","names":[{"nameLocale":"en-US","name":"cash
+        dispenser"}]}]},"address":{"streetNumber":"3902","streetName":"Central Avenue
+        Southeast","municipalitySubdivision":"Nob Hill","municipality":"Albuquerque","countrySecondarySubdivision":"Bernalillo","countrySubdivision":"NM","countrySubdivisionName":"New
+        Mexico","postalCode":"87108","extendedPostalCode":"87108-1017","countryCode":"US","country":"United
+        States","countryCodeISO3":"USA","freeformAddress":"3902 Central Avenue Southeast,
+        Albuquerque, NM 87108","localName":"Albuquerque"},"position":{"lat":35.079044,"lon":-106.60068},"viewport":{"topLeftPoint":{"lat":35.07994,"lon":-106.60178},"btmRightPoint":{"lat":35.07814,"lon":-106.59958}},"entryPoints":[{"type":"main","position":{"lat":35.07929,"lon":-106.60064}}]},{"type":"POI","id":"jvwh5MLpuIqr_n3e77cgjQ","score":99.8804550171,"dist":119.549795,"info":"search:ta:840359000635604-US","poi":{"name":"Columbus
+        Data Services","categorySet":[{"id":7397}],"categories":["cash dispenser"],"classifications":[{"code":"CASH_DISPENSER","names":[{"nameLocale":"en-US","name":"cash
+        dispenser"}]}]},"address":{"streetNumber":"3801","streetName":"Central Avenue
+        Northeast","municipalitySubdivision":"Nob Hill","municipality":"Albuquerque","countrySecondarySubdivision":"Bernalillo","countrySubdivision":"NM","countrySubdivisionName":"New
+        Mexico","postalCode":"87108","countryCode":"US","country":"United States","countryCodeISO3":"USA","freeformAddress":"3801
+        Central Avenue Northeast, Albuquerque, NM 87108","localName":"Albuquerque"},"position":{"lat":35.079835,"lon":-106.601564},"viewport":{"topLeftPoint":{"lat":35.08073,"lon":-106.60266},"btmRightPoint":{"lat":35.07894,"lon":-106.60047}},"entryPoints":[{"type":"main","position":{"lat":35.07951,"lon":-106.60159}}]},{"type":"POI","id":"9KWO-063BDvZD5huSf6FnQ","score":99.792678833,"dist":207.315628,"info":"search:ta:840359000787908-US","poi":{"name":"ATM","categorySet":[{"id":7397}],"categories":["cash
+        dispenser"],"classifications":[{"code":"CASH_DISPENSER","names":[{"nameLocale":"en-US","name":"cash
+        dispenser"}]}]},"address":{"streetNumber":"4100","streetName":"Central Avenue
+        Southeast","municipalitySubdivision":"Nob Hill","municipality":"Albuquerque","countrySecondarySubdivision":"Bernalillo","countrySubdivision":"NM","countrySubdivisionName":"New
+        Mexico","postalCode":"87108","extendedPostalCode":"87108-1161","countryCode":"US","country":"United
+        States","countryCodeISO3":"USA","freeformAddress":"4100 Central Avenue Southeast,
+        Albuquerque, NM 87108","localName":"Albuquerque"},"position":{"lat":35.078804,"lon":-106.59842},"viewport":{"topLeftPoint":{"lat":35.0797,"lon":-106.59952},"btmRightPoint":{"lat":35.0779,"lon":-106.59732}},"entryPoints":[{"type":"main","position":{"lat":35.07904,"lon":-106.59838}}]},{"type":"POI","id":"mCM3tWRNT6a7kUNV2ZtVDA","score":99.6210708618,"dist":378.932817,"info":"search:ta:840359000280874-US","poi":{"name":"Cu
+        Anytime","categorySet":[{"id":7397}],"categories":["cash dispenser"],"classifications":[{"code":"CASH_DISPENSER","names":[{"nameLocale":"en-US","name":"cash
+        dispenser"}]}]},"address":{"streetNumber":"3500","streetName":"Central Avenue
+        Southeast","municipalitySubdivision":"Nob Hill","municipality":"Albuquerque","countrySecondarySubdivision":"Bernalillo","countrySubdivision":"NM","countrySubdivisionName":"New
+        Mexico","postalCode":"87106","extendedPostalCode":"87106-1434","countryCode":"US","country":"United
+        States","countryCodeISO3":"USA","freeformAddress":"3500 Central Avenue Southeast,
+        Albuquerque, NM 87106","localName":"Albuquerque"},"position":{"lat":35.079526,"lon":-106.604802},"viewport":{"topLeftPoint":{"lat":35.08043,"lon":-106.6059},"btmRightPoint":{"lat":35.07863,"lon":-106.6037}},"entryPoints":[{"type":"main","position":{"lat":35.07974,"lon":-106.60477}}]},{"type":"POI","id":"SP_XSCh6xu40i6etEc6HHA","score":99.53099823,"dist":468.9992,"info":"search:ta:840359000656006-US","poi":{"name":"Lynk
+        Systems","categorySet":[{"id":7397}],"categories":["cash dispenser"],"classifications":[{"code":"CASH_DISPENSER","names":[{"nameLocale":"en-US","name":"cash
+        dispenser"}]}]},"address":{"streetNumber":"4212","streetName":"Coal Avenue
+        Southeast","municipalitySubdivision":"Nob Hill","municipality":"Albuquerque","countrySecondarySubdivision":"Bernalillo","countrySubdivision":"NM","countrySubdivisionName":"New
+        Mexico","postalCode":"87108","countryCode":"US","country":"United States","countryCodeISO3":"USA","freeformAddress":"4212
+        Coal Avenue Southeast, Albuquerque, NM 87108","localName":"Albuquerque"},"position":{"lat":35.075733,"lon":-106.597481},"viewport":{"topLeftPoint":{"lat":35.07663,"lon":-106.59858},"btmRightPoint":{"lat":35.07483,"lon":-106.59638}},"entryPoints":[{"type":"main","position":{"lat":35.07542,"lon":-106.59748}}]},{"type":"POI","id":"Pj7BcbBQugNCqA6-uC6Klw","score":99.4779434204,"dist":522.056173,"info":"search:ta:840359000772211-US","poi":{"name":"Prosperity
+        Bank","categorySet":[{"id":7397}],"categories":["cash dispenser"],"classifications":[{"code":"CASH_DISPENSER","names":[{"nameLocale":"en-US","name":"cash
+        dispenser"}]}]},"address":{"streetNumber":"4320","streetName":"Lead Avenue
+        Southeast","municipalitySubdivision":"Nob Hill","municipality":"Albuquerque","countrySecondarySubdivision":"Bernalillo","countrySubdivision":"NM","countrySubdivisionName":"New
+        Mexico","postalCode":"87108","extendedPostalCode":"87108-2725","countryCode":"US","country":"United
+        States","countryCodeISO3":"USA","freeformAddress":"4320 Lead Avenue Southeast,
+        Albuquerque, NM 87108","localName":"Albuquerque"},"position":{"lat":35.075622,"lon":-106.596747},"viewport":{"topLeftPoint":{"lat":35.07652,"lon":-106.59785},"btmRightPoint":{"lat":35.07472,"lon":-106.59565}},"entryPoints":[{"type":"main","position":{"lat":35.07572,"lon":-106.59669}}]},{"type":"POI","id":"wMJ0WLjKpfLkOI2OHFT2aQ","score":99.4778442383,"dist":522.148289,"info":"search:ta:840359000190272-US","poi":{"name":"Bank
+        of America Na","phone":"+1 844-401-8500","brands":[{"name":"Bank of America"}],"categorySet":[{"id":7397}],"url":"locators.bankofamerica.com/nm/albuquerque/financial-","categories":["cash
+        dispenser"],"classifications":[{"code":"CASH_DISPENSER","names":[{"nameLocale":"en-US","name":"cash
+        dispenser"}]}]},"address":{"streetNumber":"4401","streetName":"Central Avenue
+        Northeast","municipalitySubdivision":"Highland Business","municipality":"Albuquerque","countrySecondarySubdivision":"Bernalillo","countrySubdivision":"NM","countrySubdivisionName":"New
+        Mexico","postalCode":"87108","extendedPostalCode":"87108-1209","countryCode":"US","country":"United
+        States","countryCodeISO3":"USA","freeformAddress":"4401 Central Avenue Northeast,
+        Albuquerque, NM 87108","localName":"Albuquerque"},"position":{"lat":35.079896,"lon":-106.595038},"viewport":{"topLeftPoint":{"lat":35.08097,"lon":-106.59635},"btmRightPoint":{"lat":35.07882,"lon":-106.59372}},"entryPoints":[{"type":"main","position":{"lat":35.07883,"lon":-106.59523}},{"type":"main","position":{"lat":35.07883,"lon":-106.59521}}]},{"type":"POI","id":"Q8j_aPovM1ZDAMXlY8Y9iQ","score":99.2669296265,"dist":733.077874,"info":"search:ta:840359000656657-US","poi":{"name":"Lynk
+        Systems","categorySet":[{"id":7397}],"categories":["cash dispenser"],"classifications":[{"code":"CASH_DISPENSER","names":[{"nameLocale":"en-US","name":"cash
+        dispenser"}]}]},"address":{"streetNumber":"3222","streetName":"Central Avenue
+        Southeast","municipalitySubdivision":"Nob Hill","municipality":"Albuquerque","countrySecondarySubdivision":"Bernalillo","countrySubdivision":"NM","countrySubdivisionName":"New
+        Mexico","postalCode":"87106","extendedPostalCode":"87106-1442","countryCode":"US","country":"United
+        States","countryCodeISO3":"USA","freeformAddress":"3222 Central Avenue Southeast,
+        Albuquerque, NM 87106","localName":"Albuquerque"},"position":{"lat":35.079961,"lon":-106.608657},"viewport":{"topLeftPoint":{"lat":35.08086,"lon":-106.60976},"btmRightPoint":{"lat":35.07906,"lon":-106.60756}},"entryPoints":[{"type":"main","position":{"lat":35.08028,"lon":-106.60859}}]},{"type":"POI","id":"E2UU01qb6o_7iFZVEyLXag","score":99.2591323853,"dist":740.869518,"info":"search:ta:840359000644797-US","poi":{"name":"Prosperity
+        Bank","categorySet":[{"id":7397}],"categories":["cash dispenser"],"classifications":[{"code":"CASH_DISPENSER","names":[{"nameLocale":"en-US","name":"cash
+        dispenser"}]}]},"address":{"streetNumber":"4420","streetName":"Zuni Road Southeast","municipalitySubdivision":"Parkland
+        Hills","municipality":"Albuquerque","countrySecondarySubdivision":"Bernalillo","countrySubdivision":"NM","countrySubdivisionName":"New
+        Mexico","postalCode":"87108","extendedPostalCode":"87108-2844","countryCode":"US","country":"United
+        States","countryCodeISO3":"USA","freeformAddress":"4420 Zuni Road Southeast,
+        Albuquerque, NM 87108","localName":"Albuquerque"},"position":{"lat":35.074343,"lon":-106.594906},"viewport":{"topLeftPoint":{"lat":35.07524,"lon":-106.596},"btmRightPoint":{"lat":35.07344,"lon":-106.59381}},"entryPoints":[{"type":"main","position":{"lat":35.07457,"lon":-106.59478}}]},{"type":"POI","id":"yO8BILTn614HA4db8suZAw","score":99.1651916504,"dist":834.802488,"info":"search:ta:840359000538243-US","poi":{"name":"ATM
+        at Efx","categorySet":[{"id":7397}],"categories":["cash dispenser"],"classifications":[{"code":"CASH_DISPENSER","names":[{"nameLocale":"en-US","name":"cash
+        dispenser"}]}]},"address":{"streetNumber":"4720","streetName":"Central Avenue
+        Southeast","municipalitySubdivision":"Highland Business","municipality":"Albuquerque","countrySecondarySubdivision":"Bernalillo","countrySubdivision":"NM","countrySubdivisionName":"New
+        Mexico","postalCode":"87108","extendedPostalCode":"87108-1225","countryCode":"US","country":"United
+        States","countryCodeISO3":"USA","freeformAddress":"4720 Central Avenue Southeast,
+        Albuquerque, NM 87108","localName":"Albuquerque"},"position":{"lat":35.078207,"lon":-106.591563},"viewport":{"topLeftPoint":{"lat":35.07911,"lon":-106.59266},"btmRightPoint":{"lat":35.07731,"lon":-106.59046}},"entryPoints":[{"type":"main","position":{"lat":35.07829,"lon":-106.59153}}]}]}'
+  recorded_at: Fri, 01 Sep 2023 23:15:30 GMT
 recorded_with: VCR 6.2.0
