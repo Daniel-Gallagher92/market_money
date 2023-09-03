@@ -1,7 +1,15 @@
 class NearestAtmFacade
-  def self.nearest_atms(lat, lon)
-    NearestAtmService.find_nearest_atms(lat, lon)[:results].map do |atm_data|
-      NearestAtm.new(atm_data)
+  # def self.nearest_atms(market)
+  #   NearestAtmService.nearest_atms(market)[:results].map do |atm_data|
+  #     NearestAtm.new(atm_data)
+  #   end
+  # end
+
+  def self.nearest_atms(market)
+    parsed = JSON.parse(NearestAtmService.nearest_atms(market).body, symbolize_names: true)
+    atms = parsed[:results].map do |atm_data|
+      Atm.new(atm_data)
     end
+    atms.sort_by { |atm| atm.distance }
   end
 end
