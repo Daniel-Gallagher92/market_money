@@ -13,16 +13,6 @@ RSpec.describe NearestAtmService do
         expect(parsed).to be_a(Hash)
         expect(parsed[:results]).to be_an(Array)
         expect(parsed[:results][0][:poi][:name]).to eq('ATM')
-
-        # expect(response[:results]).to be_an(Array)
-        # expect(response[:results].first).to be_a(Hash)
-        # expect(response[:results].first).to have_key(:poi)
-        # expect(response[:results].first[:poi]).to be_a(Hash)
-        # expect(response[:results].first[:poi][:categorySet].first).to have_key(:id)
-        # expect(response[:results].first[:poi][:categorySet].first[:id]).to eq(7397)
-        # expect(response[:results][0][:poi][:name]).to eq('ATM')
-        # expect(response[:results][0][:address]).to be_a(Hash)
-        # expect(response[:results][0][:address][:freeformAddress]).to eq("3902 Central Avenue Southeast, Albuquerque, NM 87108")
       end
     end
   end

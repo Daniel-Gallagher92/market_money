@@ -1,9 +1,4 @@
 class NearestAtmFacade
-  # def self.nearest_atms(market)
-  #   NearestAtmService.nearest_atms(market)[:results].map do |atm_data|
-  #     NearestAtm.new(atm_data)
-  #   end
-  # end
 
   def self.nearest_atms(market)
     parsed = JSON.parse(NearestAtmService.nearest_atms(market).body, symbolize_names: true)
