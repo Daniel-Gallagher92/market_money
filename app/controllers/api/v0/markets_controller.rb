@@ -1,15 +1,12 @@
 class Api::V0::MarketsController < ApplicationController 
+  before_action :find_market, only: [:show, :nearest_atms]
 
   def index 
     render json: MarketSerializer.new(Market.all)
   end
 
   def show
-    begin
-      render json: MarketSerializer.new(Market.find(params[:id]))
-    rescue ActiveRecord::RecordNotFound => e
-      render json: ErrorSerializer.new(e).serialized_json, status: :not_found
-    end
+    render json: MarketSerializer.new(@market)
   end
 
   def search
@@ -34,7 +31,10 @@ class Api::V0::MarketsController < ApplicationController
   private
 
   def search_params
-    params.permit(:name, :city, :state)
+    params.permit(:name, :city, :state).to_hash
   end
 
+  def find_market
+    @market = Market.find(params[:id])
+  end
 end
